@@ -1,6 +1,2 @@
-<div>
-    some stuff about me
-</div>
-<div>{{cc.today}}</div>
-<div></div>
+<div>{{cc.today | amDateFormat: 'MMMM YYYY'}}</div>
 <div ng-repeat="day in cc.currentMonthArray">{{day.date}}</div>
